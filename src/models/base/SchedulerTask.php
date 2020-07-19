@@ -27,7 +27,7 @@ class SchedulerTask extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'scheduler_task';
+        return '{{%scheduler_task}}';
     }
 
     /**
